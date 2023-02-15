@@ -18,20 +18,22 @@
 					VALUES ('$username2', '$email', '$password')";
 			$result = mysqli_query($conn, $sql);
 			if ($result) {
-				echo "<script>alert('User Registration Completed.')</script>";
+				echo "<script>alert('Wow! User Registration Completed.')</script>";
 				$username2 = "";
 				$email = "";
 				$password = "";
 				$cpassword = "";
                 header("Location: index.php");
 			} else {
-				echo "<script>alert('Something Went Wrong.')</script>";
+				echo "<script>alert('Woops! Something Wrong Went.')</script>";
 			}
-		}
+		} 
 		
 	} else {
 		echo "<script>alert('Password Not Matched.')</script>";
 	}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +48,7 @@
 </head>
 
 <body>
-    <div class="container2">
+    <div class="container">
         <div class="wrapper">
             <div class="title">Register</div>
             <form action="" method="POST">
