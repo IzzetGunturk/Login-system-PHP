@@ -1,3 +1,9 @@
 # 🔒 Login system PHP
 
-I programmed a login system with PHP and SQL.
+I programmed a login system.
+
+## 🛠️ Technologies
+- PHP
+- SQL
+- HTML
+- CSS
